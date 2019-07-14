@@ -77,15 +77,4 @@ public class CheeseController {
 
         return "redirect:";
     }
-
-    /**
-     * display cheese by category
-     * @RequestMapping(value = "category", method = RequestMethod.GET)
-    public String displayCheeseCategory(Model model, @RequestParam int categoryID) {
-        model.addAttribute("cheeses", categoryDao.findOne(categoryID));
-        model.addAttribute("title", "Cheese by Catagory");
-        return "cheese/index";
-    } */
-
-
 }
